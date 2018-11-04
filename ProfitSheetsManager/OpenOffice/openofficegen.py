@@ -67,7 +67,7 @@ def getColumnNameFromNumber( columnNumber ):
 #   This function uses dictionary to call the method,
 #   depending on the type of the data that will be inserted
 def setCell( cell, data ):
-    { "formula":cell.setFormula, "string":cell.setString }[data[0]](data[1])
+    { "formula":cell.setFormula, "string":cell.setString, "value":cell.setValue }[data[0]](data[1])
     
 # createTable( sheet, offset, columns, items, values ) -
 # creates an open office table in the given sheet, of the format:
@@ -129,7 +129,8 @@ def createTable( sheet, offset, columns, items, values ):
 # after listing all the "items", leaves "beforeSummaryShift" rows blank and right below them
 # puts table summary information.
 #
-# TODO: Add more summary items
+# TODO: 1. Add more summary items
+#       2. Add charts creating
 #
 # Parameters:
 #   sheet - sheet in the OpenOffice file
