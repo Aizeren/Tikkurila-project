@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 
 using System.IO;
 
-namespace SimplifiedCore
+namespace Core
 {
     class UnmanagedDLLLoader : IDLLLoader
     {

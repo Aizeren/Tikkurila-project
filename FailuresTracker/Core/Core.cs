@@ -29,7 +29,7 @@ using System.IO;
      * see the description just hovering
      * our mouse cursor over it.
      */
-namespace SimplifiedCore
+namespace Core
 {
     /*
      * When an external entity connects to the core,

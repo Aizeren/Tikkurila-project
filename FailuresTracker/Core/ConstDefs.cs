@@ -1,4 +1,4 @@
-﻿namespace SimplifiedCore
+﻿namespace Core
 {
     public static class Strings
     {

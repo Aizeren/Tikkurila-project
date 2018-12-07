@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SimplifiedCore
+namespace Core
 {
     /*
      * An entity, not yet identified

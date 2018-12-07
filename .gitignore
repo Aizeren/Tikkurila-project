@@ -305,7 +305,5 @@ App.config
 *.csproj
 *.sln
 
-FailuresTracker/Core/Program.cs
-
 # files for installing this system on third-parties machines
 FailuresTracker/Solutions

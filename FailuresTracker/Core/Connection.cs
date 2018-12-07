@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace SimplifiedCore
+namespace Core
 {
     /*
      * Every Sender-Receiver connection is
